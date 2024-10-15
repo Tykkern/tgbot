@@ -13,6 +13,8 @@ from data import *
 
 menuMessage: dict[int, types.Message] = {}
 
+# Halo from mzvlsmxx
+
 async def start(message: types.Message) -> None:
     """Функция старта бота"""
     await message.delete()
